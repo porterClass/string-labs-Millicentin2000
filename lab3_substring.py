@@ -1,6 +1,7 @@
 """
 3. Substring
-Write a function substring() that takes a string and two non-negative integers as parameters and returns a section (substring) of the given string. The first integer is the starting position and the second integer is the position after the last character of the substring.
+Write a function substring() that takes a string and two non-negative integers as parameters and returns a section (substring) of the given string. 
+The first integer is the starting position and the second integer is the position after the last character of the substring.
 
 substring("chicken", 3, 6)  # returns "cke"
 substring("alligator", 3, 8)  # returns "igato"
@@ -10,6 +11,11 @@ substring("COMPUTER SCIENCE IS THE BEST!", 9, 12)  # returns "SCI"
 #CODE 
 #YOUR
 #FUNCTION BELOW HERE
+def substring(word, numone, numtwo):
+  return word[numone:numtwo]
+
+# OK
+ 
 
 
 

@@ -12,6 +12,32 @@ count_vowels("Python")  # returns 1
 #YOUR
 #FUNCTION BELOW HERE
 
+def count_vowels(word):
+  sum = 0
+  for let in word:
+    if let == 'a':
+      sum += 1
+    if let == 'e':
+      sum += 1
+    if let == 'i':
+      sum += 1
+    if let == 'o':
+      sum += 1
+    if let == 'u':
+      sum += 1
+    if let == 'A':
+      sum += 1
+    if let == 'E':
+      sum += 1
+    if let == 'I':
+      sum += 1
+    if let == 'O':
+      sum += 1
+    if let == 'U':
+      sum += 1
+  return(sum)
+    
+# OK
 
 
 

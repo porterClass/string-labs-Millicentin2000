@@ -1,6 +1,8 @@
 """
 2. First and Last Letter
-Take in one word and output a string formatted like the sample output. Write a function that inputs a word and returns a string formatted as in the sample output. Name this function letterr().
+Take in one word and output a string formatted like the sample output. 
+Write a function that inputs a word and returns a string formatted as in the sample output. 
+Name this function letterr().
 
 letterr("Hello")  # returns "First letter is H and last letter is o"
 letterr("World")  # returns "First letter is W and last letter is d"
@@ -11,10 +13,12 @@ letterr("World")  # returns "First letter is W and last letter is d"
 #YOUR
 #FUNCTION BELOW HERE
 
+def letterr(word):
+  first = word[0]
+  lastTwo = word[-1]
+  return "First letter is " + first + " and last letter is " + lastTwo
 
-
-
-
+# OK
 
 
 
